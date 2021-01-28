@@ -1,0 +1,248 @@
+
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './variables.scss';
+@import './btn.scss';
+@import './grid.scss';
+@import './public.scss';
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: "Helvetica Neue For Number";
+  src: local("Helvetica Neue");
+  unicode-range: U+30-39;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  min-width: 1180px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+}
+
+#app{
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.padding-content {
+  padding: 4px 0;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus{
+  outline: none;
+ }
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+.center-box{
+  flex-grow:1
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+.p-lv-10 {
+  padding: 0 10px;
+}
+.p-lv-5 {
+  padding: 0 5px;
+}
+.pd-5 {
+  padding: 5px;
+}
+.pd-10 {
+  padding: 10px;
+}
+.no-pd{
+  padding: 0;
+}
+.wd-100{
+  width: 100%;
+}
+.wd-50{
+  width: 50%;
+}
+.block {
+  display: block;
+}
+.mg-top-8 {
+  margin-top: 8px;
+}
+.mg-top-4 {
+  margin-top: 4px;
+}
+.mg-btm-8 {
+  margin-bottom: 8px;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.inlineBlock {
+  display: block;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+code {
+  background: #eef1f6;
+  padding: 15px 16px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 36px;
+  font-size: 15px;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  a {
+    color: #337ab7;
+    cursor: pointer;
+    &:hover {
+      color: rgb(32, 160, 255);
+    }
+  }
+}
+.router-link-active {
+  border-bottom: 2px solid #FF8E3D;
+  display: inline-block
+}

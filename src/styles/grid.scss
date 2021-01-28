@@ -1,0 +1,69 @@
+.ag-fresh {
+  color: #606266;
+}
+.ag-fresh .ag-root {
+  border: 1px solid #e4e7ed;
+}
+.ag-fresh .ag-header {
+  font-weight: bold;
+  background: #edf2f8;
+  color: #303133;
+  border-bottom: 1px solid #e4e7ed;
+}
+.ag-fresh .ag-ltr .ag-header-cell {
+  border-right: 1px solid #e4e7ed;
+}
+.ag-fresh .ag-header-select-all {
+  line-height: 32px;
+//padding: 6px 0px 0px 7px;
+}
+.ag-ltr .ag-header-select-all {
+  float: none;
+}
+.ag-cell {
+  line-height: 26px;
+}
+.ag-cell, .ag-header-cell {
+  text-align: center;
+}
+.ag-fresh .ag-header-cell {
+  padding: 0;
+}
+.ag-fresh .ag-header-cell-label {
+  display: block;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 6px 2px 4px 2px;
+}
+.ag-fresh .ag-header-cell-label > span {
+  float: none;
+}
+.ag-fresh .ag-header-cell-label .ag-header-cell-text {
+  padding-left: 2px;
+}
+.ag-fresh .ag-row-odd {
+  background-color: #eff8ff;
+}
+
+.ag-fresh .ag-row-selected {
+  background-color: #b5d8f1;
+}
+.ag-fresh .ag-cell-no-focus {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid #e4e7ed;
+}
+.ag-fresh .ag-ltr .ag-cell-no-focus {
+  border-right: 1px solid #e4e7ed;
+  border-left: 1px solid transparent;
+}
+.ag-fresh .ag-cell-focus {
+  border: 1px solid #e7e7ea;
+}
+.grid-norows {
+  color: #999999;
+  span {
+    display: block;
+    padding-top: 6px;
+  }
+}
